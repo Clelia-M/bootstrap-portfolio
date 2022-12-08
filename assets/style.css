@@ -1,0 +1,85 @@
+/* Variables */
+
+:root {
+    --primaryclr: #212529;
+    --secondaryclr: #496F7A;
+    --secondarylightclr: #7c99a1;
+    --accentclr: #97504D;
+    --textlightclr: #d9d5d2;
+    --serif: 'Libre Baskerville', serif;
+    --sans-serif: 'Montserrat', sans-serif;
+}
+
+
+/* Main style */
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+p, .lead {
+    font-family: Montserrat;
+}
+
+
+/* Navigation bar */
+
+.navbar-brand,
+.navbar-item,
+h1,
+h2,
+h3 {
+    font-family: var(--serif);
+}
+
+.nav-link {
+    color: var(--textlightclr);
+}
+
+.nav-link:hover {
+    color: var(--secondarylightclr);
+    border-bottom: 2px solid var(--secondarylightclr);
+}
+
+/* Buttons */
+.btn-cust {
+    background-color: var(--secondaryclr);
+    border: 2px solid var(--secondaryclr);
+    color: var(--textlightclr);
+    font-family: var(--sans-serif);
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+
+.btn-cust:hover,
+.inst-cust,
+.news-cust {
+    background-color: var(--secondarylightclr);
+    border: 2px solid var(--secondarylightclr);
+    color: var(--textlightclr);
+}
+
+.text-cust {
+    color: var(--secondarylightclr);
+}
+
+.card-cust {
+    background-color: #2F2E41;
+}
+
+.bi-arrow-up-circle {
+    color: #8A9CBD;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+
+    .google-maps {
+        width: 100%;
+        height: 100%;
+    }
+}
