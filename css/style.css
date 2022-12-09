@@ -19,12 +19,27 @@ body::before {
 }
 
 p, .lead {
-    font-family: Montserrat;
+    font-family: var(--sans-serif);
+}
+
+img {
+    border-radius: 5px;
+    width: 18rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--textlightclr);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--textlightclr);
+    text-transform: ;
 }
 
 
 /* Navigation bar */
-
 .navbar-brand,
 .navbar-item,
 h1,
@@ -42,6 +57,20 @@ h3 {
     border-bottom: 2px solid var(--secondarylightclr);
 }
 
+nav [class*="fa-"] {
+    font-size: 200%;
+    color: var(--secondaryclr);
+    padding: 3px 5px; 
+}
+
+.navbar-brand [class*="fa-"] {
+    font-size: 100%;
+}
+
+nav [class*="fa-"]:hover {
+    color: var(--secondarylightclr);
+}
+
 /* Buttons */
 .btn-cust {
     background-color: var(--secondaryclr);
@@ -50,7 +79,6 @@ h3 {
     font-family: var(--sans-serif);
     font-weight: 500;
     margin-left: 20px;
-
 }
 
 .btn-cust:hover,
@@ -65,21 +93,36 @@ h3 {
     color: var(--secondarylightclr);
 }
 
-.card-cust {
-    background-color: #2F2E41;
+/* Cards */
+.card {
+    border: 1px solid var(--secondarylightclr);
+    border-radius: 5px;
 }
+
+.card img {
+   width: 400px;
+   background-color: white;
+}
+
+.card-text a {
+    color: var(--primaryclr);
+    font-weight: 700;
+}
+
 
 .bi-arrow-up-circle {
     color: #8A9CBD;
+}
+
+/* Contact me */
+.news-input {
+    font-family: var(--sans-serif);
+    font-weight: 700;
 }
 
 @media (min-width: 768px) {
     .news-input {
         width: 50%;
     }
-
-    .google-maps {
-        width: 100%;
-        height: 100%;
-    }
 }
+
