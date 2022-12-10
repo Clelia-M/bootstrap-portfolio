@@ -51,7 +51,8 @@ h3 {
 
 .nav-link:hover {
     color: var(--secondarylightclr);
-    border-bottom: 2px solid var(--secondarylightclr);
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--secondarylightclr);
 }
 
 nav [class*="fa-"] {
@@ -68,10 +69,6 @@ nav [class*="fa-"]:hover {
     color: var(--secondarylightclr);
 }
 
-.resume {
-    margin: 0 5px;
-}
-
 /* Buttons */
 .btn-cust {
     background-color: var(--secondaryclr);
@@ -83,7 +80,6 @@ nav [class*="fa-"]:hover {
 }
 
 .btn-cust:hover,
-.inst-cust,
 .news-cust {
     background-color: var(--secondarylightclr);
     border: 2px solid var(--secondarylightclr);
@@ -106,24 +102,50 @@ nav [class*="fa-"]:hover {
 }
 
 /* Cards */
+.card-proj {
+    color: var(--primaryclr);
+}
+
 .card {
-    border: 1px solid var(--secondarylightclr);
+    height: fit-content;
+}
+
+.card-proj p {
+    font-weight: 400;
+}
+
+.card-bg-light {
+    background-color: var(--textlightclr);
+    border: 1px solid var(--textlightclr);
     border-radius: 5px;
 }
 
+.card-bg-dark {
+    background-color: var(--primaryclr);
+    border: 1px solid var(--primaryclr);
+    border-radius: 5px;
+    color: var(--textlightclr);
+}
+
 .card img {
-   width: 400px;
-   background-color: white;
+   width: 300px;
+   height: 250px;
 }
 
-.card-text a {
-    color: var(--primaryclr);
-    font-weight: 700;
+.card-text ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--sans-serif);
 }
 
-
-.bi-arrow-up-circle {
-    color: #8A9CBD;
+.JK-cust:hover {
+    color: var(--secondarylightclr);
+    padding-bottom: 1px;
+    border-bottom: 1px solid var(--secondarylightclr);
 }
 
 /* Contact me */
@@ -132,8 +154,16 @@ nav [class*="fa-"]:hover {
     font-weight: 700;
 }
 
+/* Footer */
+
+.bi-arrow-up-circle {
+    color: #8A9CBD;
+}
+
 @media (min-width: 768px) {
     .news-input {
         width: 50%;
     }
+
+
 }
