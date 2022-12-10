@@ -1,5 +1,4 @@
 /* Variables */
-
 :root {
     --primaryclr: #212529;
     --secondaryclr: #496F7A;
@@ -9,7 +8,6 @@
     --serif: 'Libre Baskerville', serif;
     --sans-serif: 'Montserrat', sans-serif;
 }
-
 
 /* Main style */
 body::before {
@@ -35,7 +33,6 @@ a {
 a:hover {
     text-decoration: none;
     color: var(--textlightclr);
-    text-transform: ;
 }
 
 
@@ -71,6 +68,10 @@ nav [class*="fa-"]:hover {
     color: var(--secondarylightclr);
 }
 
+.resume {
+    margin: 0 5px;
+}
+
 /* Buttons */
 .btn-cust {
     background-color: var(--secondaryclr);
@@ -91,6 +92,17 @@ nav [class*="fa-"]:hover {
 
 .text-cust {
     color: var(--secondarylightclr);
+}
+
+.btn-resume {
+    margin-left: auto;
+    background-color: var(--accentclr);
+    border: 5px solid var(--accentclr);
+}
+
+.btn-resume:hover {
+    background-color: var(--secondarylightclr);
+    border: 5px solid var(--secondarylightclr);
 }
 
 /* Cards */
@@ -125,4 +137,3 @@ nav [class*="fa-"]:hover {
         width: 50%;
     }
 }
-
