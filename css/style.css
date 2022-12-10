@@ -148,6 +148,30 @@ nav [class*="fa-"]:hover {
     border-bottom: 1px solid var(--secondarylightclr);
 }
 
+/* Skills section */
+#skills .lead {
+    margin-top: 20px;
+    line-height: 1.3;
+}
+
+.progress {
+    margin-top: 20px;
+    font-family: var(--sans-serif);
+    font-size: 15px;
+    font-weight: 400;
+    background-color: var(--textlightclr);
+    height: 25px;
+}
+
+.progress-bar {
+    background-color: var(--secondaryclr);
+}
+
+#skills img {
+    width: 400px;
+    height: auto;
+}
+
 /* Contact me */
 .news-input {
     font-family: var(--sans-serif);
