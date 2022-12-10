@@ -16,7 +16,9 @@ body::before {
     height: 60px;
 }
 
-p, .lead {
+p, 
+ul,
+.lead {
     font-family: var(--sans-serif);
 }
 
@@ -167,10 +169,25 @@ nav [class*="fa-"]:hover {
     background-color: var(--secondaryclr);
 }
 
-#skills img {
+#skills img, #about img {
     width: 400px;
     height: auto;
 }
+
+/* About section */
+
+
+#about ul {
+    margin-top: 30px;
+    list-style-type: none;
+    font-weight: 400;
+}
+
+
+#about li {
+    margin-bottom: 20px;
+}
+
 
 /* Contact me */
 .news-input {
