@@ -84,7 +84,7 @@ nav [class*="fa-"]:hover {
     border-radius: 50%;
     color: var(--textlightclr);
     font-weight: 500;
-    margin: 20px;
+    margin: 15px;
 }
 
 .btn-acc-round:hover,
@@ -206,7 +206,7 @@ nav [class*="fa-"]:hover {
 
 /* Footer */
 .bi-arrow-up-circle {
-    color: var(--secondarylightclr);
+    color: var(--accentclr);
 }
 
 
