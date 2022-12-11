@@ -71,6 +71,12 @@ nav [class*="fa-"]:hover {
     color: var(--secondarylightclr);
 }
 
+.navbar-toggler,
+.navbar-toggler:hover {
+    border: none;
+} 
+
+
 /* Buttons */
 .btn-acc-round {
     background-color: var(--accentclr);
@@ -205,10 +211,13 @@ nav [class*="fa-"]:hover {
 
 
 
-@media (min-width: 768px) {
-    .news-input {
-        width: 50%;
+@media (min-width: 390px) {
+
+    nav [class*="fa-"] {
+        display: none;
     }
 
-
+    .navbar-brand [class*="fa-"] {
+        display: inline;
+    }
 }
