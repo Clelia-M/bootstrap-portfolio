@@ -142,8 +142,8 @@ nav [class*="fa-"]:hover {
 }
 
 .card img {
-   width: 300px;
-   height: 250px;
+    width: 230px;
+    height: auto;
 }
 
 .card-text ul {
@@ -211,7 +211,7 @@ nav [class*="fa-"]:hover {
 
 
 
-@media (min-width: 390px) {
+@media (max-width: 768px) {
 
     nav [class*="fa-"] {
         display: none;
@@ -219,5 +219,15 @@ nav [class*="fa-"]:hover {
 
     .navbar-brand [class*="fa-"] {
         display: inline;
+    }
+
+    .progress {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contact-input {
+        width: 50%;
     }
 }
