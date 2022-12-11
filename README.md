@@ -30,6 +30,9 @@ To build a portfolio website using Bootstrap CSS in order to showcase my project
 8. Media queries needed (minimum use)
 9. READ ME creation
 
+##Credits
+The illustrations used for the Skills and About sections are from the Open-source illustrations library by [UnDraw](https://undraw.co/)
+
 ## Final result - Desktop & Mobile
 ![Bootstrap Portfolio Project](https://github.com/Clelia-M/bootstrap-portfolio/blob/2ba945903434c5adff3db9eb2665d64afa6e98cf/img/Clelia%20Mangione%20Bootstrap%20Portfolio_final%20Result.png)
 ![Bootstrap Portfolio Project Mobile](https://github.com/Clelia-M/bootstrap-portfolio/blob/2ba945903434c5adff3db9eb2665d64afa6e98cf/img/CM%20Bootstrap%20Portfolio_Final%20reuslts%20mobile.png)
