@@ -72,35 +72,41 @@ nav [class*="fa-"]:hover {
 }
 
 /* Buttons */
-.btn-cust {
-    background-color: var(--secondaryclr);
-    border: 2px solid var(--secondaryclr);
+.btn-acc-round {
+    background-color: var(--accentclr);
+    border: 5px solid var(--accentclr);
+    border-radius: 50%;
     color: var(--textlightclr);
-    font-family: var(--sans-serif);
     font-weight: 500;
-    margin-left: 20px;
+    margin: 20px;
 }
 
-.btn-cust:hover,
-.news-cust {
+.btn-acc-round:hover,
+.contact-cust {
     background-color: var(--secondarylightclr);
-    border: 2px solid var(--secondarylightclr);
+    border: 5px solid var(--secondarylightclr);
     color: var(--textlightclr);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
 .text-cust {
     color: var(--secondarylightclr);
 }
 
-.btn-resume {
+.btn-acc {
     margin-left: auto;
     background-color: var(--accentclr);
     border: 5px solid var(--accentclr);
+    font-family: var(--sans-serif);
+    color: var(--textlightclr);
+    font-weight: 500;
+    margin-left: 20px;
 }
 
-.btn-resume:hover {
+.btn-acc:hover {
     background-color: var(--secondarylightclr);
     border: 5px solid var(--secondarylightclr);
+    box-shadow: 0 0 11px rgba(33,33,33,.5);
 }
 
 /* Cards */
@@ -175,8 +181,6 @@ nav [class*="fa-"]:hover {
 }
 
 /* About section */
-
-
 #about ul {
     margin-top: 30px;
     list-style-type: none;
@@ -188,7 +192,6 @@ nav [class*="fa-"]:hover {
     margin-bottom: 20px;
 }
 
-
 /* Contact me */
 .news-input {
     font-family: var(--sans-serif);
@@ -196,10 +199,11 @@ nav [class*="fa-"]:hover {
 }
 
 /* Footer */
-
 .bi-arrow-up-circle {
-    color: #8A9CBD;
+    color: var(--secondarylightclr);
 }
+
+
 
 @media (min-width: 768px) {
     .news-input {
