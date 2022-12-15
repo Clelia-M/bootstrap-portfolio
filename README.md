@@ -30,7 +30,7 @@ To build a portfolio website using Bootstrap CSS in order to showcase my project
 8. Media queries needed (minimum use)
 9. READ ME creation
 
-##Credits
+## Credits
 The illustrations used for the Skills and About sections are from the Open-source illustrations library by [UnDraw](https://undraw.co/)
 
 ## Link to deployed Application
